@@ -9,8 +9,8 @@ export default class ToggleReadableLineLengthPlugin extends Plugin {
 			// https://docs.obsidian.md/Plugins/User+interface/Commands#Hot%20keys
 			hotkeys: [{ modifiers: ["Mod", "Shift"], key: "e" }],
 			callback: () => {
-				// @ts-ignore
 				const optionEnabled =
+					// @ts-ignore
 					this.app.vault.getConfig("readableLineLength");
 				// @ts-ignore
 				this.app.vault.setConfig("readableLineLength", !optionEnabled);
