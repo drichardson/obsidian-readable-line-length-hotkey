@@ -7,7 +7,9 @@ export default class ToggleReadableLineLengthPlugin extends Plugin {
 			name: 'Toggle Readable line length',
 			editorCallback: (editor: Editor, view: MarkdownView) => {
 				console.log("Toggle Readable line length");
+				// @ts-ignore
 				const optionEnabled = this.app.vault.getConfig("readableLineLength");
+				// @ts-ignore
 				this.app.vault.setConfig("readableLineLength", !optionEnabled);
 			}
 		});
