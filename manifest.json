@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "toggle-readable-line-length",
+	"name": "Toggle Readable line length",
 	"version": "1.0.0",
-	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"minAppVersion": "1.6.3",
+	"description": "Add command to toggle Readable line length editor setting.",
+	"author": "Doug Richardson",
+	"authorUrl": "https://dougrichardson.us/",
+	"fundingUrl": "https://buymeacoffee.com/dougrichardson",
 	"isDesktopOnly": false
 }
